@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gotta Get Down On Friday!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1751782348401240</string>
+    <string name="login_success">"Welcome to\nGotta Get Down On Friday!"</string>
+    <string name="login_cancel">"Login attempt canceled."</string>
+    <string name="login_fail">"Login attempt failed."</string>
+</resources>
