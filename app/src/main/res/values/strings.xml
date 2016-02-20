@@ -5,4 +5,5 @@
     <string name="login_success">"Welcome to\nGotta Get Down On Friday!"</string>
     <string name="login_cancel">"Login attempt canceled."</string>
     <string name="login_fail">"Login attempt failed."</string>
+    <string name="button_text">"What Are You Doing Tonight?"</string>
 </resources>
