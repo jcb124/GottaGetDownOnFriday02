@@ -1,0 +1,33 @@
+GraphRequest request = GraphRequest.newGraphPathRequest(
+  accessToken,
+  "/search",
+  new GraphRequest.Callback() {
+    @Override
+    public void onCompleted(GraphResponse response) {
+      // Insert your code here
+    }
+});
+
+Bundle parameters = new Bundle();
+parameters.putString("limit", "1");
+parameters.putString("offset", "0");
+parameters.putString("type", "place");
+parameters.putString("center", "40.4391,-79.9764");
+parameters.putString("distance", "20000");
+request.setParameters(parameters);
+request.executeAsync();
+
+
+
+
+GraphRequest request = GraphRequest.newGraphPathRequest(
+  accessToken,
+  "/118873917617/events",
+  new GraphRequest.Callback() {
+    @Override
+    public void onCompleted(GraphResponse response) {
+      // Insert your code here
+    }
+});
+
+request.executeAsync();
